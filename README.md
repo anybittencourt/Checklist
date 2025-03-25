@@ -12,13 +12,13 @@ Atendido. Nenhum bloco de texto está dentro de imagens.
 
 # FORMULÁRIOS
 ## Todos os campos dos formulários têm uma <label> associada
-Parcialmente atendido. Embora existam <label> associadas aos campos de entrada, elas não utilizam o atributo for, que melhora a acessibilidade associando corretamente os rótulos aos campos.
+Parcialmente atendido. Embora existam label associadas aos campos de entrada, elas não utilizam o atributo for, que melhora a acessibilidade associando corretamente os rótulos aos campos.
 
 ## São usados <fieldset> e <legend> para agrupar os vários campos nos formulários
-Não atendido. O formulário não usa <fieldset> para organizar os campos. O uso dessa estrutura ajudaria na acessibilidade ao agrupar campos relacionados.
+Não atendido. O formulário não usa fieldset para organizar os campos. O uso dessa estrutura ajudaria na acessibilidade ao agrupar campos relacionados.
 
 ## O envio dos formulários é feito via input/button e não através de links e JavaScript
-Atendido. O formulário usa <button>, garantindo funcionamento sem depender de JavaScript. É essencial já que algumas usuárias podem ter dispositivos ou navegadores com suporte limitado a JavaScript, então garantir um envio nativo torna o site mais acessível e funcional.
+Atendido. O formulário usa button, garantindo funcionamento sem depender de JavaScript. É essencial já que algumas usuárias podem ter dispositivos ou navegadores com suporte limitado a JavaScript, então garantir um envio nativo torna o site mais acessível e funcional.
 
 ## Os erros nos formulários são indicados em texto e junto do campo que contém o erro
 Não atendido. O código não apresenta mensagens de erro associadas aos campos em caso de preenchimento incorreto. Seria importante pois se um campo for preenchido incorretamente, a usuária precisa saber onde está o erro e como corrigi-lo. 
@@ -35,14 +35,14 @@ Atendido. O código não contém elementos piscantes ou mudanças bruscas de cor
 Não atendido. O código não possui um link de "Pular para o conteúdo".
 
 ## O <title> das páginas é claro, direto e percetível e está intimamente relacionado com o conteúdo da mesma
-Atendido. As páginas possuem <title> adequados e é essencial para a navegação.
+Atendido. As páginas possuem title adequados e é essencial para a navegação.
 
 ## O site é navegável usando apenas o teclado
 Atendido. É possível realizar o login e cadastro utilizando somente o teclado. 
 
 # SEMÂNTICA E LEGIBILIDADE
 ## O conteúdo está estruturado de forma semântica
-Atendido. As tags <h2>, <p>, <label>, e <button> são usadas corretamente.
+Atendido. As tags h2, p, label, e button são usadas corretamente.
 
 ## O idioma da página está indicado no HTML
 Atendido. O código contém lang="pt-BR", permitindo que leitores de tela reconheçam o idioma.
